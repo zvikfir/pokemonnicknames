@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${POKEMONS_DB_HOSTNAME:localhost}:${POKEMONS_DB_PORT:5432}/${POKEMONS_DB_NAME:pokemonnicknames}
+    username: ${POKEMONS_DB_USERNAME:postgres}
+    password: ${POKEMONS_DB_PASSWORD:postgres}
